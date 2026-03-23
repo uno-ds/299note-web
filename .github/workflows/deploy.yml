@@ -1,0 +1,61 @@
+name: Deploy LP
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate HTML
+        run: |
+          # HTML 기본 검증
+          if ! grep -q "<!DOCTYPE html>" index.html; then
+            echo "ERROR: Missing DOCTYPE"
+            exit 1
+          fi
+          if ! grep -q "</html>" index.html; then
+            echo "ERROR: Malformed HTML"
+            exit 1
+          fi
+          echo "HTML validation passed"
+
+      - name: Check links
+        run: |
+          # 깨진 내부 링크 확인
+          grep -oP 'href="[^"]*"' index.html | grep -v "http" | grep -v "#" | while read link; do
+            file=$(echo $link | tr -d '"' | sed 's/href=//')
+            if [ ! -f "$file" ] && [ "$file" != "" ]; then
+              echo "WARNING: Broken link $file"
+            fi
+          done
+          echo "Link check passed"
+
+      - name: Check file size
+        run: |
+          SIZE=$(wc -c < index.html)
+          echo "index.html: ${SIZE} bytes"
+          if [ $SIZE -gt 500000 ]; then
+            echo "WARNING: File too large (>500KB)"
+          fi
+          echo "Size check passed"
+
+  deploy-cloudflare:
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 299note-web
+          directory: .

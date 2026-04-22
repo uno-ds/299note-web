@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>299note — WVAC 2026 A4 Sheet</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Nunito Sans',
+          -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        color: #2d2a2b;
+        background: #fffbfb;
+      }
+      .page {
+        width: 210mm;
+        height: 297mm;
+        padding: 16mm 18mm;
+        position: relative;
+        page-break-after: always;
+        display: flex;
+        flex-direction: column;
+      }
+      .page:last-child {
+        page-break-after: auto;
+      }
+      .pink {
+        background: #fef3f4;
+      }
+      .pill {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 100px;
+        background: #fde8ea;
+        color: #e8727d;
+        font-weight: 800;
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+      .logo {
+        font-weight: 900;
+        font-size: 28px;
+        letter-spacing: -0.02em;
+      }
+      .logo span {
+        color: #e8727d;
+      }
+      h1 {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.15;
+        margin: 14px 0 10px;
+        letter-spacing: -0.02em;
+      }
+      h2 {
+        font-weight: 800;
+        font-size: 18px;
+        margin: 16px 0 6px;
+      }
+      p {
+        font-size: 13px;
+        line-height: 1.7;
+        margin: 0 0 8px;
+        color: #3d3839;
+      }
+      .pillars {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .pillar {
+        background: #fff;
+        border: 1px solid #fde8ea;
+        border-radius: 14px;
+        padding: 12px;
+      }
+      .pillar h3 {
+        font-size: 12px;
+        color: #e8727d;
+        margin: 0 0 4px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+      .pillar p {
+        font-size: 11px;
+        line-height: 1.55;
+        margin: 0;
+      }
+      .qr {
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding-top: 16px;
+        border-top: 1px solid #fde8ea;
+      }
+      .qr-box {
+        width: 48mm;
+        height: 48mm;
+        border: 1px solid #fde8ea;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+      }
+      .qr-box img {
+        width: 44mm;
+        height: 44mm;
+        object-fit: contain;
+      }
+      .qr-text {
+        flex: 1;
+        font-size: 14px;
+      }
+      .qr-text b {
+        font-size: 18px;
+        color: #e8727d;
+        letter-spacing: -0.01em;
+      }
+      .muted {
+        color: #8a7f80;
+        font-size: 11px;
+        margin-top: 4px;
+      }
+      .lang-mark {
+        position: absolute;
+        top: 16mm;
+        right: 18mm;
+        font-size: 10px;
+        color: #8a7f80;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- FRONT: Japanese -->
+    <section class="page">
+      <span class="lang-mark">Front · JP</span>
+      <div>
+        <div class="logo">
+          <span>299</span>note 🐾
+        </div>
+        <div style="margin-top: 10px">
+          <span class="pill">Currently in development · MVP β</span>
+        </div>
+        <h1>ペットの健康を、<br />家族と動物病院で、育てていく。</h1>
+        <p>
+          飼い主と動物病院を、健康データと物語でつなぐ<br />
+          ペットヘルスケア・プラットフォーム
+        </p>
+      </div>
+
+      <h2>3つの柱</h2>
+      <div class="pillars">
+        <div class="pillar">
+          <h3>Timeline</h3>
+          <p>予防接種・健診・日々の観察。ペットの一生を一つのタイムラインで、家族と動物病院が共有。</p>
+        </div>
+        <div class="pillar">
+          <h3>Clinic Integration</h3>
+          <p>既存の電子カルテを置き換えず、飼い主向けレイヤーとして機能。病院の業務フローは変わりません。</p>
+        </div>
+        <div class="pillar">
+          <h3>Rainbow Bridge</h3>
+          <p>ペットを見送った後に、健康記録と家族の記憶を一つの物語として残すメモリアル体験。</p>
+        </div>
+      </div>
+
+      <h2 style="margin-top: 20px">動物病院の皆様へ</h2>
+      <p>
+        既に導入されているシステムの上で、患者レイヤーとして動作します。
+        スタッフが検査結果をアップロードするだけで連携完了。
+        ご興味のある方は
+        <b style="color: #e8727d">hello@299note.com</b>
+        までお気軽にご連絡ください。
+      </p>
+
+      <div class="qr">
+        <div class="qr-box">
+          <img src="../public/qr/wvac2026-utm.png" alt="299note.com QR" />
+        </div>
+        <div class="qr-text">
+          <b>299note.com</b>
+          <div class="muted">QRコードでアクセス (日本語自動表示)</div>
+          <div class="muted" style="margin-top: 10px">hello@299note.com</div>
+          <div class="muted">Yokohama, Japan · 法人化 2026 予定</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BACK: English -->
+    <section class="page pink">
+      <span class="lang-mark">Back · EN</span>
+      <div>
+        <div class="logo">
+          <span>299</span>note 🐾
+        </div>
+        <div style="margin-top: 10px">
+          <span class="pill">Currently in development · MVP β</span>
+        </div>
+        <h1>Nurturing pet health,<br />together with family and vets.</h1>
+        <p>
+          A pet healthcare platform connecting owners and veterinary clinics
+          through health data and shared stories.
+        </p>
+      </div>
+
+      <h2>Three pillars</h2>
+      <div class="pillars">
+        <div class="pillar">
+          <h3>Health Timeline</h3>
+          <p>Vaccinations, check-ups, daily observations — all shared between family and vet in chronological order.</p>
+        </div>
+        <div class="pillar">
+          <h3>Clinic Integration</h3>
+          <p>Not a replacement for existing EMR systems — a patient-facing layer that respects your workflow.</p>
+        </div>
+        <div class="pillar">
+          <h3>Rainbow Bridge</h3>
+          <p>After a pet passes, health records and family memories are woven into a single memorial narrative.</p>
+        </div>
+      </div>
+
+      <h2 style="margin-top: 20px">For veterinary clinics</h2>
+      <p>
+        299note does not replace your EMR system. It operates as a
+        patient-facing layer on top of whatever you already use. Integration
+        is as simple as staff uploading test results. If you are interested,
+        please reach out:
+        <b style="color: #e8727d">hello@299note.com</b>.
+      </p>
+
+      <div class="qr">
+        <div class="qr-box">
+          <img src="../public/qr/wvac2026-utm.png" alt="299note.com QR" />
+        </div>
+        <div class="qr-text">
+          <b>299note.com</b>
+          <div class="muted">Scan for multi-language site</div>
+          <div class="muted" style="margin-top: 10px">hello@299note.com</div>
+          <div class="muted">Based in Yokohama, Japan · Corporate registration planned for 2026</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

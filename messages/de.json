@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "299note — Für Haustiere, Tierärzte und die Familien, die sie lieben.",
+    "description": "Eine Tiergesundheitsplattform, die Halter und Tierarztpraxen durch Gesundheitsdaten und gemeinsame Geschichten verbindet."
+  },
+  "nav": {
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "hero": {
+    "badge": "Currently in development · MVP β",
+    "headline": "Die Gesundheit Ihres Tieres,\ngemeinsam von Familie und Tierarzt betreut.",
+    "subheadline": "Eine Tiergesundheitsplattform, die Halter und Tierarztpraxen\ndurch Gesundheitsdaten und gemeinsame Geschichten verbindet."
+  },
+  "why": {
+    "title": "Wie 299note entstanden ist",
+    "para1": "Es begann mit Trauer. Als wir unseren Hund verabschieden mussten, sah ich, wie tief meine Familie und Freunde getroffen waren. Ich wollte etwas tun — Erinnerungen bewahren, Trost spenden und dafür sorgen, dass niemand dieses Gefühl der Hilflosigkeit allein durchstehen muss.",
+    "para2": "Die Frage, was ich technisch schaffen könnte, führte zu 299note: ein SNS-Ort, um jeden Moment mit dem Haustier festzuhalten und mit Familie und Freunden zu teilen — und nach dem Abschied diese Erinnerungen für immer zu bewahren. Dazu eine Gesundheitsplattform, die Tierarztpraxen hilft, besser und informierter zu behandeln.",
+    "para3": "Die Entwicklung ist zu 90 % abgeschlossen. Der Betatest steht bevor."
+  },
+  "features": {
+    "label": "FEATURES",
+    "title": "Alles für Ihr Haustier",
+    "health": {
+      "title": "Gesundheitsakte",
+      "body": "Gewichtsverlauf, Impfplan, Medikamentenerinnerungen. Die vollständige Gesundheitshistorie Ihres Tieres, immer griffbereit."
+    },
+    "sns": {
+      "title": "Tierhalter-Community",
+      "body": "Teilen Sie Alltagsmomente, folgen Sie anderen Tierfamilien und verbinden Sie sich über Likes und Kommentare."
+    },
+    "clinic": {
+      "title": "Praxis-Anbindung",
+      "body": "Empfangen Sie Befunde und Behandlungsunterlagen direkt von Ihrer Tierarztpraxis. Halter und Praxis, verbunden."
+    },
+    "memorial": {
+      "title": "Regenbogenbrücke-Memorial",
+      "body": "Bewahren Sie die kostbaren Erinnerungen an Tiere, die über die Regenbogenbrücke gegangen sind. Fotos und Aufzeichnungen bleiben für immer erhalten."
+    },
+    "global": {
+      "title": "5 Sprachen unterstützt",
+      "body": "한국어, English, 日本語, Español, Deutsch. Eine globale Plattform für Tierhalter überall auf der Welt."
+    }
+  },
+  "b2b": {
+    "title": "Tierarztpraxen — werden Sie Betatester",
+    "intro": "Wir suchen vorausschauende Praxen als Partner für unsere Betaphase. Was Sie dabei erhalten:",
+    "merits": [
+      {
+        "title": "Datensicherung der Patientenakten",
+        "body": "Eine halterseitige Schicht, die Patientenakten spiegelt — reduziert das Risiko von Datenverlust und gibt Haltern jederzeit Zugriff auf die Geschichte ihres Tieres."
+      },
+      {
+        "title": "Reichhaltigerer Patientenkontext",
+        "body": "Tägliche Gewohnheitsprotokolle — Appetit, Wasseraufnahme, Schlaf, Verhalten — liefern Ihnen ein vollständigeres Bild, bevor das Tier überhaupt ankommt."
+      },
+      {
+        "title": "Weniger Wiederholungsfragen",
+        "body": "Futter- und Wasseraufnahme werden automatisch aufgezeichnet. Diagnostizieren Sie anhand von Daten, nicht aus dem Gedächtnis."
+      },
+      {
+        "title": "Papierakten digitalisieren",
+        "body": "Laden Sie Fotos handgeschriebener Patientenakten hoch. OCR + KI-Datenextraktion ist für eine künftige Version geplant."
+      },
+      {
+        "title": "Infrastruktur vereinfachen",
+        "body": "Eine schlanke halterseitige Schicht über Ihrem bestehenden Praxisverwaltungssystem. Kein Ersatz, keine Unterbrechung — reines DX."
+      }
+    ],
+    "cta": "Kontakt aufnehmen →",
+    "mailSubject": "Anfrage zum Klinik-Betaprogramm"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "status": "done", "label": "MVP fertiggestellt", "date": "2026 / 04" },
+      { "status": "progress", "label": "Betatest", "date": "Sommer 2026" },
+      { "status": "progress", "label": "Suche nach Partnerpraxen", "date": "Sommer 2026→" },
+      { "status": "planned", "label": "Öffentliche Web-Plattform (β)", "date": "Herbst 2026" },
+      { "status": "planned", "label": "Geräteanbindung", "date": "2027" }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "body": "Ob Partnerschaft, Praxisanbindung, Presseanfrage oder andere Fragen — schreiben Sie uns gerne.",
+    "button": "E-Mail senden"
+  },
+  "about": {
+    "body": "299note ist ein unabhängiges Projekt in Entwicklung im Bereich der Tiergesundheit. Mit Sitz in Yokohama, Japan, setzen wir uns für die Lebensqualität von Haustieren und ihren Familien ein."
+  }
+}

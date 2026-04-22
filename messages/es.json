@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "299note — Para mascotas, veterinarios y las familias que los quieren.",
+    "description": "Una plataforma de salud para mascotas que conecta a tutores y clínicas veterinarias mediante datos de salud e historias compartidas."
+  },
+  "nav": {
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Currently in development · MVP β",
+    "headline": "Cuidar la salud de tu mascota,\njunto a la familia y el veterinario.",
+    "subheadline": "Una plataforma de salud que conecta a tutores y clínicas veterinarias\nmediante datos de salud e historias compartidas."
+  },
+  "why": {
+    "title": "Por qué nació 299note",
+    "para1": "Todo comenzó con el dolor. Cuando perdimos a nuestra mascota, vi cómo mi familia y amigos quedaban destrozados. Quise hacer algo — preservar los recuerdos, ofrecer consuelo y asegurarme de que nadie tuviera que sentirse tan impotente en ese momento.",
+    "para2": "La pregunta de qué podía construir con la tecnología me llevó a 299note: un SNS donde atesorar cada momento de la vida de una mascota y compartirlo con familia y amigos — y, cuando llegue el momento, conservar esos recuerdos para siempre. Y una plataforma de salud que ayuda a las clínicas veterinarias a ofrecer una atención mejor e informada.",
+    "para3": "El desarrollo está al 90 %. Estamos preparando el período de prueba beta."
+  },
+  "features": {
+    "label": "FEATURES",
+    "title": "Todo para tu mascota",
+    "health": {
+      "title": "Historial de salud",
+      "body": "Tendencias de peso, calendario de vacunas, recordatorios de medicamentos. El historial completo de salud de tu mascota, siempre a mano."
+    },
+    "sns": {
+      "title": "Comunidad de tutores",
+      "body": "Comparte momentos cotidianos, sigue a otras familias con mascotas y conéctate con likes y comentarios."
+    },
+    "clinic": {
+      "title": "Integración con clínicas",
+      "body": "Recibe resultados de análisis e historias clínicas directamente de tu veterinario. Tutor y clínica, conectados."
+    },
+    "memorial": {
+      "title": "Memorial del puente del arcoíris",
+      "body": "Guarda los recuerdos preciosos de mascotas que han cruzado el puente del arcoíris. Fotos y registros preservados para siempre."
+    },
+    "global": {
+      "title": "5 idiomas disponibles",
+      "body": "한국어, English, 日本語, Español, Deutsch. Una plataforma global para familias con mascotas en todo el mundo."
+    }
+  },
+  "b2b": {
+    "title": "Clínicas veterinarias — únanse a nuestro beta",
+    "intro": "Buscamos clínicas con visión de futuro para asociarse durante nuestra fase beta. Esto es lo que obtendrán:",
+    "merits": [
+      {
+        "title": "Respaldo de registros clínicos",
+        "body": "Una capa orientada al tutor que refleja las historias clínicas — reduciendo el riesgo de pérdida de datos y dando a los tutores acceso fácil al historial de su mascota."
+      },
+      {
+        "title": "Contexto más rico del paciente",
+        "body": "Registros diarios de hábitos — apetito, consumo de agua, sueño, comportamiento — le dan una imagen más completa antes de que el animal llegue a consulta."
+      },
+      {
+        "title": "Menos preguntas repetidas",
+        "body": "La ingesta de comida y agua se registra automáticamente en gráficas. Diagnostique a partir de datos, no de la memoria."
+      },
+      {
+        "title": "Digitalizar fichas en papel",
+        "body": "Suba fotos de registros médicos escritos a mano. La extracción de datos por OCR + IA está planificada para una versión futura."
+      },
+      {
+        "title": "Simplificar la infraestructura",
+        "body": "Una capa orientada al tutor sobre cualquier sistema de gestión clínica que ya use. Sin sustitución, sin interrupciones — DX puro."
+      }
+    ],
+    "cta": "Contáctenos →",
+    "mailSubject": "Consulta sobre el programa beta para clínicas"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "status": "done", "label": "MVP completado", "date": "2026 / 04" },
+      { "status": "progress", "label": "Prueba beta", "date": "Verano 2026" },
+      { "status": "progress", "label": "Búsqueda de clínicas asociadas", "date": "Verano 2026→" },
+      { "status": "planned", "label": "Plataforma web pública (β)", "date": "Otoño 2026" },
+      { "status": "planned", "label": "Integración de dispositivos", "date": "2027" }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "body": "Para colaboraciones, adopción clínica, consultas de prensa o cualquier otra cuestión, no dude en escribirnos.",
+    "button": "Enviar un correo"
+  },
+  "about": {
+    "body": "299note es un proyecto independiente en desarrollo dentro del sector de la salud de mascotas. Con sede en Yokohama, Japón, trabajamos para mejorar la calidad de vida de las mascotas y sus familias."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "299note — For pets, vets, and the families who love them.",
+    "description": "A pet healthcare platform connecting owners and veterinary clinics through health data and shared stories."
+  },
+  "nav": {
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Currently in development · MVP β",
+    "headline": "Nurturing pet health,\ntogether with family and vets.",
+    "subheadline": "A pet healthcare platform connecting owners and\nveterinary clinics through health data and shared stories."
+  },
+  "why": {
+    "title": "Why 299note was born",
+    "para1": "It started with grief. When my family lost our pet, I watched everyone around me fall apart with sadness. I wanted to do something — to preserve the memories, to offer comfort, and to make sure no one had to feel so helpless in that moment.",
+    "para2": "I asked myself what I could build with technology. The answer became 299note: a memorial and wellness SNS where owners can cherish every moment of their pet's life and share it with family and friends — and a health record platform that helps veterinary clinics deliver better, more informed care.",
+    "para3": "Development is 90% complete. We are now preparing for beta testing."
+  },
+  "features": {
+    "label": "FEATURES",
+    "title": "Everything for your pet",
+    "health": {
+      "title": "Health records",
+      "body": "Weight trends, vaccination schedules, medication reminders. Your pet's complete health history, always at hand."
+    },
+    "sns": {
+      "title": "Pet owner community",
+      "body": "Share everyday moments, follow other pet families, and connect through likes and comments."
+    },
+    "clinic": {
+      "title": "Clinic integration",
+      "body": "Receive test results and medical records directly from your vet. Owner and clinic, connected."
+    },
+    "memorial": {
+      "title": "Rainbow Bridge memorial",
+      "body": "Keep the precious memories of pets who have crossed the rainbow bridge. Photos and records preserved forever."
+    },
+    "global": {
+      "title": "5 languages supported",
+      "body": "Korean, English, 日本語, Español, Deutsch. A global platform for pet families everywhere."
+    }
+  },
+  "b2b": {
+    "title": "Veterinary clinics — join our beta",
+    "intro": "We are looking for forward-thinking clinics to partner with during our beta phase. Here is what you get:",
+    "merits": [
+      {
+        "title": "Medical record backup",
+        "body": "An owner-side layer that mirrors clinical records — reducing the risk of data loss and giving owners easy access to their pet's history."
+      },
+      {
+        "title": "Richer patient context",
+        "body": "Daily habit logs — appetite, water intake, sleep, behavior — give you a fuller picture before the animal even walks in."
+      },
+      {
+        "title": "Fewer repeated questions",
+        "body": "Food and water intake are charted automatically. Diagnose from data, not from memory."
+      },
+      {
+        "title": "Digitise paper charts",
+        "body": "Upload photos of handwritten medical records. OCR + AI data extraction is planned for a future release."
+      },
+      {
+        "title": "Simplify your infrastructure",
+        "body": "A lean patient-facing layer on top of whatever EMR you already use. No replacement, no disruption — pure DX."
+      }
+    ],
+    "cta": "Contact us →",
+    "mailSubject": "Clinic Beta Program Inquiry"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "status": "done", "label": "MVP completed", "date": "2026 / 04" },
+      { "status": "progress", "label": "Beta testing", "date": "Summer 2026" },
+      { "status": "progress", "label": "Seeking clinic partners", "date": "Summer 2026→" },
+      { "status": "planned", "label": "Public web platform (β)", "date": "Autumn 2026" },
+      { "status": "planned", "label": "Device integration", "date": "2027" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "For partnerships, clinic adoption, press inquiries or anything else, please feel free to reach out.",
+    "button": "Send an email"
+  },
+  "about": {
+    "body": "299note is an independent project in development within the pet healthcare space. Based in Yokohama, Japan, we aim to improve quality of life for pets and their families."
+  }
+}

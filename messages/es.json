@@ -77,7 +77,7 @@
       { "status": "progress", "label": "Prueba beta", "date": "Verano 2026" },
       { "status": "progress", "label": "Búsqueda de clínicas asociadas", "date": "Verano 2026→" },
       { "status": "planned", "label": "Plataforma web pública (β)", "date": "Otoño 2026" },
-      { "status": "planned", "label": "Integración de dispositivos (Clip / Bowl)", "date": "2027" }
+      { "status": "planned", "label": "Integración de dispositivos", "date": "2027" }
     ]
   },
   "contact": {

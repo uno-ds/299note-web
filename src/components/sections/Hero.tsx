@@ -1,12 +1,18 @@
 import { useTranslations } from 'next-intl';
 import { DevBadge } from '@/components/ui/Badge';
 
+// Drop iOS screenshots here:
+//   public/screenshots/hero-1.png  (e.g. SNS home feed)
+//   public/screenshots/hero-2.png  (e.g. post detail with photo)
+//   public/screenshots/hero-3.png  (e.g. memorial or timeline)
+// Gradient shows as placeholder until real screenshots are added.
 const SNS_POSTS = [
   {
     user: 'Max & Family',
     handle: '@max_fam',
     caption: 'Beautiful morning walk! Loving the spring 🌸',
     gradient: 'from-amber-200 to-orange-300',
+    screenshot: '/screenshots/hero-1.png',
     likes: 42,
     rotate: '-rotate-6 -translate-y-3',
     zIndex: 1,
@@ -16,6 +22,7 @@ const SNS_POSTS = [
     handle: '@buddymom',
     caption: "Check-up done ✅ Dr. Kim says Buddy is perfectly healthy!",
     gradient: 'from-sky-200 to-blue-300',
+    screenshot: '/screenshots/hero-2.png',
     likes: 88,
     rotate: 'rotate-0 translate-y-4',
     zIndex: 2,
@@ -25,6 +32,7 @@ const SNS_POSTS = [
     handle: '@mochi_forever',
     caption: 'Thank you for all the love. Mochi is always in our hearts. 🌈',
     gradient: 'from-purple-200 to-pink-300',
+    screenshot: '/screenshots/hero-3.png',
     likes: 234,
     rotate: 'rotate-6 -translate-y-1',
     zIndex: 1,
@@ -57,38 +65,17 @@ export function Hero() {
                   className={`phone-mockup transform ${post.rotate} transition-transform duration-slow ease-standard hover:scale-[1.02]`}
                   style={{ zIndex: post.zIndex }}
                 >
-                  <div className="absolute inset-0 bg-white flex flex-col overflow-hidden">
-                    {/* Notch spacer */}
-                    <div className="h-[22px] flex-shrink-0" />
-                    {/* App header */}
-                    <div className="flex-shrink-0 border-b border-gray-100 px-2 py-[3px] flex items-center justify-between bg-white">
-                      <span className="font-black text-[7px] tracking-tight">
-                        <span className="text-pink-deep">299</span>
-                        <span className="text-charcoal">note</span>
-                      </span>
-                      <span className="text-[6px] text-charcoal/40">🔔</span>
-                    </div>
-                    {/* Post */}
-                    <div className="flex-1 overflow-hidden px-1.5 pt-1.5">
-                      {/* Avatar + name */}
-                      <div className="flex items-center gap-1 mb-1">
-                        <div className="w-3.5 h-3.5 rounded-full bg-gradient-to-br from-pink-300 to-pink-500 flex-shrink-0" />
-                        <div className="min-w-0">
-                          <p className="text-[5px] font-bold text-charcoal leading-none truncate">{post.user}</p>
-                          <p className="text-[4px] text-charcoal/40 leading-none mt-px">{post.handle}</p>
-                        </div>
-                      </div>
-                      {/* Photo */}
-                      <div className={`w-full rounded-[3px] bg-gradient-to-br ${post.gradient}`} style={{ aspectRatio: '4/3' }} />
-                      {/* Caption */}
-                      <p className="mt-1 text-[4.5px] text-charcoal/80 leading-[1.4] line-clamp-2">{post.caption}</p>
-                      {/* Interactions */}
-                      <div className="mt-1 flex items-center gap-2">
-                        <span className="text-[4.5px] font-bold text-pink-deep">♥ {post.likes}</span>
-                        <span className="text-[4px] text-charcoal/35">💬</span>
-                      </div>
-                    </div>
-                  </div>
+                  {/* Gradient placeholder — hidden once screenshot loads */}
+                  <div className={`absolute inset-0 bg-gradient-to-br ${post.gradient}`} />
+                  {/* Real iOS screenshot — drop files in public/screenshots/ */}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={post.screenshot}
+                    alt="299note app"
+                    className="absolute inset-0 w-full h-full object-cover object-top"
+                    loading="eager"
+                    onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+                  />
                 </div>
               ))}
             </div>

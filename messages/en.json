@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "299note — For pets, vets, and the families who love them.",
+    "description": "A pet healthcare platform connecting owners and veterinary clinics through health data and shared stories."
+  },
+  "nav": {
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Currently in development · MVP β",
+    "headline": "Nurturing pet health,\ntogether with family and vets.",
+    "subheadline": "A pet healthcare platform connecting owners and\nveterinary clinics through health data and shared stories."
+  },
+  "why": {
+    "title": "Why 299note exists",
+    "para1": "Over 9 million households in Japan care for pets today. Pets have become family, and awareness of their health has never been higher.",
+    "para2": "Yet the medical records kept at veterinary clinics and the daily observations of owners still live in separate places. This disconnect limits the precision of preventive care — and the quality of the time families spend saying goodbye.",
+    "para3": "299note is being built to bridge this gap."
+  },
+  "pillars": {
+    "title": "Three pillars",
+    "timeline": {
+      "title": "A full life, in a single timeline",
+      "subtitle": "Health Timeline",
+      "body": "Vaccinations, check-up results, daily observations, and changes in weight and appetite — all shared between family and veterinary clinic in chronological order. Early detection and cherished moments accumulate in one place."
+    },
+    "clinic": {
+      "title": "An ongoing dialogue with your vet",
+      "subtitle": "Clinic Integration",
+      "body": "Not a replacement for existing EMR systems, but a patient-facing layer on top of them. Clinic staff upload test results, owners review them and ask questions at their own pace. Designed to respect existing clinical workflows."
+    },
+    "memorial": {
+      "title": "Stories that live past the rainbow bridge",
+      "subtitle": "Rainbow Bridge Memorial",
+      "body": "After a pet passes, their health records and family memories are woven into a single memorial narrative. A feature that doesn't exist anywhere else in the pet services landscape."
+    }
+  },
+  "b2b": {
+    "title": "For veterinary clinics",
+    "body": "299note does not replace your existing EMR system. It operates as a patient-facing layer on top of whatever you already use.\n\nIntegration is as simple as clinic staff uploading test results. Additional features like reservation management will be considered gradually, based on feedback from partner clinics.",
+    "cta": "Interested in a partnership? →",
+    "mailSubject": "Clinic Partnership Inquiry"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "status": "done", "label": "MVP completed", "date": "2026 / 04" },
+      { "status": "progress", "label": "Corporate registration", "date": "Summer 2026" },
+      { "status": "progress", "label": "Seeking clinic partners", "date": "Summer 2026→" },
+      { "status": "planned", "label": "Public web platform (β)", "date": "Autumn 2026" },
+      { "status": "planned", "label": "Device integration (Clip / Bowl)", "date": "2027" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "For partnerships, clinic adoption, press inquiries or anything else, please feel free to reach out.",
+    "button": "Send an email"
+  },
+  "about": {
+    "body": "299note is an independent project in development within the pet healthcare space. Based in Yokohama, Japan, we aim to improve quality of life for pets and their families. Corporate registration planned for 2026."
+  }
+}

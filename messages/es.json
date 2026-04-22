@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "299note — Para mascotas, veterinarios y las familias que los quieren.",
+    "description": "Una plataforma de salud para mascotas que conecta a tutores y clínicas veterinarias mediante datos de salud e historias compartidas."
+  },
+  "nav": {
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Currently in development · MVP β",
+    "headline": "Cuidar la salud de tu mascota,\njunto a la familia y el veterinario.",
+    "subheadline": "Una plataforma de salud que conecta a tutores y clínicas veterinarias\nmediante datos de salud e historias compartidas."
+  },
+  "why": {
+    "title": "Por qué existe 299note",
+    "para1": "Más de 9 millones de hogares en Japón conviven hoy con mascotas. Se han convertido en miembros de la familia, y la conciencia sobre su salud nunca ha sido mayor.",
+    "para2": "Sin embargo, los datos clínicos almacenados en las historias clínicas electrónicas de las clínicas veterinarias y las observaciones diarias de los tutores siguen viviendo en lugares separados. Esta desconexión limita la precisión de la medicina preventiva y la calidad del tiempo que las familias pasan despidiéndose.",
+    "para3": "299note se está construyendo para cerrar esa brecha."
+  },
+  "pillars": {
+    "title": "Tres pilares",
+    "timeline": {
+      "title": "Toda una vida en una sola línea de tiempo",
+      "subtitle": "Health Timeline",
+      "body": "Vacunas, resultados de chequeos, observaciones diarias y cambios de peso o apetito — todo compartido entre la familia y la clínica en orden cronológico. La detección temprana de anomalías y los momentos valiosos se acumulan en un mismo lugar."
+    },
+    "clinic": {
+      "title": "Un diálogo continuo con tu veterinario",
+      "subtitle": "Clinic Integration",
+      "body": "No reemplaza el sistema de historia clínica electrónica existente, sino que opera como una capa orientada al tutor sobre él. El personal de la clínica carga los resultados y los tutores los consultan y hacen preguntas a su propio ritmo. Diseñado para respetar los flujos de trabajo clínicos existentes."
+    },
+    "memorial": {
+      "title": "Historias que perduran más allá del puente del arcoíris",
+      "subtitle": "Rainbow Bridge Memorial",
+      "body": "Tras la despedida, los registros de salud y los recuerdos familiares se tejen en una sola narrativa conmemorativa. Una función que no existe en ninguna otra plataforma de servicios para mascotas."
+    }
+  },
+  "b2b": {
+    "title": "Para clínicas veterinarias",
+    "body": "299note no reemplaza su sistema de historia clínica electrónica. Funciona como una capa orientada al tutor sobre cualquier sistema que ya esté utilizando.\n\nLa integración es tan simple como que el personal de la clínica cargue los resultados. Funciones adicionales como la gestión de citas se evaluarán de forma gradual, basándonos en los comentarios de las clínicas asociadas.",
+    "cta": "¿Interesado en una colaboración? →",
+    "mailSubject": "Consulta de colaboración veterinaria"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "status": "done", "label": "MVP completado", "date": "2026 / 04" },
+      { "status": "progress", "label": "Constitución de la empresa", "date": "Verano 2026" },
+      { "status": "progress", "label": "Búsqueda de clínicas asociadas", "date": "Verano 2026→" },
+      { "status": "planned", "label": "Plataforma web pública (β)", "date": "Otoño 2026" },
+      { "status": "planned", "label": "Integración de dispositivos (Clip / Bowl)", "date": "2027" }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "body": "Para colaboraciones, adopción clínica, consultas de prensa o cualquier otra cuestión, no dude en escribirnos.",
+    "button": "Enviar un correo"
+  },
+  "about": {
+    "body": "299note es un proyecto independiente en desarrollo dentro del sector de la salud de mascotas. Con sede en Yokohama, Japón, trabajamos para mejorar la calidad de vida de las mascotas y sus familias. Constitución de la empresa prevista para 2026."
+  }
+}

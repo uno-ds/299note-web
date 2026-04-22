@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "299note — Für Haustiere, Tierärzte und die Familien, die sie lieben.",
+    "description": "Eine Tiergesundheitsplattform, die Halter und Tierarztpraxen durch Gesundheitsdaten und gemeinsame Geschichten verbindet."
+  },
+  "nav": {
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "hero": {
+    "badge": "Currently in development · MVP β",
+    "headline": "Die Gesundheit Ihres Tieres,\ngemeinsam von Familie und Tierarzt betreut.",
+    "subheadline": "Eine Tiergesundheitsplattform, die Halter und Tierarztpraxen\ndurch Gesundheitsdaten und gemeinsame Geschichten verbindet."
+  },
+  "why": {
+    "title": "Hintergrund — Warum es 299note braucht",
+    "para1": "In Japan leben Haustiere heute in über 9 Millionen Haushalten. Sie sind Familienmitglieder geworden, und das Bewusstsein für ihre Gesundheit war nie größer als heute.",
+    "para2": "Die Daten aus den elektronischen Patientenakten der Tierarztpraxen und die täglichen Beobachtungen der Halter bleiben jedoch nach wie vor an getrennten Orten. Diese Informationslücke begrenzt sowohl die Präzision der Vorsorge als auch die Qualität der Zeit, die Familien mit dem Abschied verbringen.",
+    "para3": "299note wird entwickelt, um diese Lücke zu schließen."
+  },
+  "pillars": {
+    "title": "Drei Säulen",
+    "timeline": {
+      "title": "Ein ganzes Leben in einem einzigen Zeitstrahl",
+      "subtitle": "Health Timeline",
+      "body": "Impfungen, Untersuchungsergebnisse, tägliche Beobachtungen sowie Veränderungen bei Gewicht und Appetit — alles chronologisch geteilt zwischen Familie und Tierarztpraxis. Frühwarnzeichen und wertvolle Momente sammeln sich am selben Ort."
+    },
+    "clinic": {
+      "title": "Ein kontinuierlicher Dialog mit Ihrer Tierarztpraxis",
+      "subtitle": "Clinic Integration",
+      "body": "Kein Ersatz für bestehende Praxisverwaltungssysteme, sondern eine halterseitige Schicht darüber. Das Praxisteam lädt Befunde hoch, Halter sehen sie ein und stellen Fragen in ihrem eigenen Tempo. Bestehende Praxisabläufe bleiben unberührt."
+    },
+    "memorial": {
+      "title": "Geschichten, die über die Regenbogenbrücke hinaus bestehen",
+      "subtitle": "Rainbow Bridge Memorial",
+      "body": "Nach dem Abschied werden Gesundheitsakte und Familienerinnerungen zu einer gemeinsamen Gedenkerzählung verwoben. Eine Funktion, die es im Bereich der Haustierdienste bisher nirgendwo gibt."
+    }
+  },
+  "b2b": {
+    "title": "Für Tierarztpraxen",
+    "body": "299note ersetzt Ihr bestehendes Praxisverwaltungssystem nicht. Es arbeitet als halterseitige Schicht über Ihrem vorhandenen System.\n\nDie Integration ist so einfach wie das Hochladen von Befunden durch das Praxisteam. Zusätzliche Funktionen wie Terminverwaltung werden schrittweise und auf Grundlage des Feedbacks unserer Partnerpraxen in Betracht gezogen.",
+    "cta": "An einer Partnerschaft interessiert? →",
+    "mailSubject": "Partnerschaftsanfrage einer Tierarztpraxis"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "status": "done", "label": "MVP fertiggestellt", "date": "2026 / 04" },
+      { "status": "progress", "label": "Unternehmensgründung", "date": "Sommer 2026" },
+      { "status": "progress", "label": "Suche nach Partnerpraxen", "date": "Sommer 2026→" },
+      { "status": "planned", "label": "Öffentliche Web-Plattform (β)", "date": "Herbst 2026" },
+      { "status": "planned", "label": "Geräteanbindung (Clip / Bowl)", "date": "2027" }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "body": "Ob Partnerschaft, Praxisanbindung, Presseanfrage oder andere Fragen — schreiben Sie uns gerne.",
+    "button": "E-Mail senden"
+  },
+  "about": {
+    "body": "299note ist ein unabhängiges Projekt in Entwicklung im Bereich der Tiergesundheit. Mit Sitz in Yokohama, Japan, setzen wir uns für die Lebensqualität von Haustieren und ihren Familien ein. Unternehmensgründung für 2026 geplant."
+  }
+}

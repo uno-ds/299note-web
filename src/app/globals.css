@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-nunito-sans), var(--font-noto-jp), var(--font-noto-kr), system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-nunito), var(--font-noto-jp), var(--font-noto-kr), system-ui, sans-serif;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 480ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 480ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Phone mockup — used in Hero until real screenshots land */
+.phone-mockup {
+  aspect-ratio: 9 / 19.5;
+  border-radius: 36px;
+  border: 10px solid #1a1718;
+  background: linear-gradient(160deg, #fdf2f4 0%, #fce0e5 100%);
+  box-shadow:
+    0 24px 60px -16px rgba(244, 144, 154, 0.35),
+    0 8px 24px -8px rgba(45, 42, 43, 0.18);
+  overflow: hidden;
+  position: relative;
+}
+
+.phone-mockup::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 45%;
+  height: 22px;
+  background: #1a1718;
+  border-radius: 0 0 14px 14px;
+}

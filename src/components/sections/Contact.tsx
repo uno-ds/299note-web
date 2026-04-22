@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/Button';
 
 export function Contact() {
   const t = useTranslations();
-  const subject = encodeURIComponent(t('b2b.mailSubject'));
+  const subject = encodeURIComponent(t('contact.mailSubject'));
   const href = `mailto:hello@299note.com?subject=${subject}`;
   return (
     <section id="contact" className="py-20 md:py-[120px]">

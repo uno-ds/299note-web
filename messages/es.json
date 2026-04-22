@@ -42,9 +42,10 @@
       "body": "한국어, English, 日本語, Español, Deutsch. Una plataforma global para familias con mascotas en todo el mundo."
     }
   },
-  "b2b": {
-    "title": "Clínicas veterinarias — únanse a nuestro beta",
-    "intro": "Buscamos clínicas con visión de futuro para asociarse durante nuestra fase beta. Esto es lo que obtendrán:",
+  "forClinics": {
+    "label": "FOR CLINICS",
+    "title": "Para clínicas veterinarias",
+    "intro": "Lo que 299note aporta a su trabajo clínico diario:",
     "merits": [
       {
         "title": "Respaldo de registros clínicos",
@@ -66,8 +67,27 @@
         "title": "Simplificar la infraestructura",
         "body": "Una capa orientada al tutor sobre cualquier sistema de gestión clínica que ya use. Sin sustitución, sin interrupciones — DX puro."
       }
+    ]
+  },
+  "betaRecruit": {
+    "label": "PROGRAMA DE SOCIOS BETA",
+    "title": "Clínicas socias beta — 1 año, todas las funciones, gratis",
+    "intro": "Por ahora no hay niveles de plan. Todas las funciones mencionadas arriba y cualquier novedad lanzada durante la beta están disponibles durante un año entero.",
+    "benefits": [
+      {
+        "title": "Acceso completo a todas las funciones",
+        "body": "Sin planes diferenciados. Sin límites artificiales. Todo disponible, de principio a fin."
+      },
+      {
+        "title": "Actualizaciones futuras incluidas",
+        "body": "Cualquier función que publiquemos durante la beta viene sin coste adicional."
+      },
+      {
+        "title": "Línea directa con el equipo",
+        "body": "El onboarding y el feedback llegan directamente al equipo de desarrollo. Sus peticiones moldean la siguiente versión."
+      }
     ],
-    "cta": "Contáctenos →",
+    "cta": "Unirse a la beta →",
     "mailSubject": "Consulta sobre el programa beta para clínicas"
   },
   "roadmap": {
@@ -83,7 +103,8 @@
   "contact": {
     "title": "Contacto",
     "body": "Para colaboraciones, adopción clínica, consultas de prensa o cualquier otra cuestión, no dude en escribirnos.",
-    "button": "Enviar un correo"
+    "button": "Enviar un correo",
+    "mailSubject": "Consulta a 299note"
   },
   "about": {
     "body": "299note es un proyecto independiente en desarrollo dentro del sector de la salud de mascotas. Con sede en Yokohama, Japón, trabajamos para mejorar la calidad de vida de las mascotas y sus familias."

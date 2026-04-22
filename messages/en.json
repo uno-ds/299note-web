@@ -42,9 +42,10 @@
       "body": "Korean, English, 日本語, Español, Deutsch. A global platform for pet families everywhere."
     }
   },
-  "b2b": {
-    "title": "Veterinary clinics — join our beta",
-    "intro": "We are looking for forward-thinking clinics to partner with during our beta phase. Here is what you get:",
+  "forClinics": {
+    "label": "FOR CLINICS",
+    "title": "For veterinary clinics",
+    "intro": "What 299note brings to your day-to-day clinical work:",
     "merits": [
       {
         "title": "Medical record backup",
@@ -66,8 +67,27 @@
         "title": "Simplify your infrastructure",
         "body": "A lean patient-facing layer on top of whatever EMR you already use. No replacement, no disruption — pure DX."
       }
+    ]
+  },
+  "betaRecruit": {
+    "label": "BETA PARTNER PROGRAM",
+    "title": "Beta partner clinics — 1 year, every feature, free",
+    "intro": "There are no plan tiers right now. Every feature listed above, plus every new feature we ship during the beta, is yours to use for one full year.",
+    "benefits": [
+      {
+        "title": "Full access to every feature",
+        "body": "No tiered plans. No artificial limits. Use everything, end to end."
+      },
+      {
+        "title": "Future updates included",
+        "body": "Anything we release during the beta comes at no extra cost."
+      },
+      {
+        "title": "Direct line to the engineering team",
+        "body": "Onboarding and feedback go straight to the builders. Your requests shape the next release."
+      }
     ],
-    "cta": "Contact us →",
+    "cta": "Join the beta →",
     "mailSubject": "Clinic Beta Program Inquiry"
   },
   "roadmap": {
@@ -83,7 +103,8 @@
   "contact": {
     "title": "Contact",
     "body": "For partnerships, clinic adoption, press inquiries or anything else, please feel free to reach out.",
-    "button": "Send an email"
+    "button": "Send an email",
+    "mailSubject": "299note Inquiry"
   },
   "about": {
     "body": "299note is an independent project in development within the pet healthcare space. Based in Yokohama, Japan, we aim to improve quality of life for pets and their families."

@@ -42,9 +42,10 @@
       "body": "한국어, English, 日本語, Español, Deutsch. Eine globale Plattform für Tierhalter überall auf der Welt."
     }
   },
-  "b2b": {
-    "title": "Tierarztpraxen — werden Sie Betatester",
-    "intro": "Wir suchen vorausschauende Praxen als Partner für unsere Betaphase. Was Sie dabei erhalten:",
+  "forClinics": {
+    "label": "FOR CLINICS",
+    "title": "Für Tierarztpraxen",
+    "intro": "Was 299note für Ihren klinischen Alltag bereitstellt:",
     "merits": [
       {
         "title": "Datensicherung der Patientenakten",
@@ -66,8 +67,27 @@
         "title": "Infrastruktur vereinfachen",
         "body": "Eine schlanke halterseitige Schicht über Ihrem bestehenden Praxisverwaltungssystem. Kein Ersatz, keine Unterbrechung — reines DX."
       }
+    ]
+  },
+  "betaRecruit": {
+    "label": "BETA-PARTNERPROGRAMM",
+    "title": "Beta-Partnerpraxen — 1 Jahr, alle Funktionen, kostenlos",
+    "intro": "Derzeit gibt es keine gestaffelten Pläne. Alle oben aufgeführten Funktionen sowie jedes neue Feature, das wir während der Beta veröffentlichen, stehen Ihnen ein Jahr lang zur Verfügung.",
+    "benefits": [
+      {
+        "title": "Vollzugriff auf alle Funktionen",
+        "body": "Keine Tarifstufen. Keine künstlichen Grenzen. Alles nutzbar — von Anfang bis Ende."
+      },
+      {
+        "title": "Zukünftige Updates inklusive",
+        "body": "Alles, was wir während der Beta veröffentlichen, ist ohne Aufpreis enthalten."
+      },
+      {
+        "title": "Direkte Verbindung zum Entwicklungsteam",
+        "body": "Onboarding und Feedback gehen direkt an die Entwicklung. Ihre Wünsche fließen in die nächste Version ein."
+      }
     ],
-    "cta": "Kontakt aufnehmen →",
+    "cta": "An der Beta teilnehmen →",
     "mailSubject": "Anfrage zum Klinik-Betaprogramm"
   },
   "roadmap": {
@@ -83,7 +103,8 @@
   "contact": {
     "title": "Kontakt",
     "body": "Ob Partnerschaft, Praxisanbindung, Presseanfrage oder andere Fragen — schreiben Sie uns gerne.",
-    "button": "E-Mail senden"
+    "button": "E-Mail senden",
+    "mailSubject": "Anfrage an 299note"
   },
   "about": {
     "body": "299note ist ein unabhängiges Projekt in Entwicklung im Bereich der Tiergesundheit. Mit Sitz in Yokohama, Japan, setzen wir uns für die Lebensqualität von Haustieren und ihren Familien ein."
